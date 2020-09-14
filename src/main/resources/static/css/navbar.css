@@ -1,0 +1,31 @@
+.navbar {
+    padding-top: 0!important;
+}
+
+.navbar-title {
+    display: inline-block;
+    background-color: #F02646;
+    padding: 1.13em .15em 0 .15em;
+    font-size: 1.25em;
+    font-family: 'Ultra', serif;
+    color: white!important;
+    text-decoration: none!important;
+    height: 2.20em!important;
+}
+
+.navbar-title:hover {
+    background-color: #C70C21;
+}
+
+.navbar-title-container {
+    padding: 0 0 2em 12em;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 75vh;
+    align-items: center;
+    text-align: center;
+}

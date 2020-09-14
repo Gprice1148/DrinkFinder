@@ -1,0 +1,19 @@
+.search-input {
+    background-color: inherit;
+    border-width: 0 0 1.25px;
+    border-color: white;
+    width: 18em;
+    font-size: 1.5em;
+    outline: 0;
+    caret-color: white;
+    color: white;
+}
+
+.search-input:focus {
+    border-color:  red;
+}
+
+.results-title {
+    color: white;
+    font-size: 2em;
+}

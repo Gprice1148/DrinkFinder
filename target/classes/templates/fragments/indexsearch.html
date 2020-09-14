@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div class="center-container" th:fragment="indexsearch">
+    <form method="GET" th:action="@{/search}">
+        <input autocomplete="off" class="search-input" placeholder="Search by liquor..."
+               required="required" th:name="searchQuery" type="search">
+    </form>
+</div>
+</body>
+</html>
